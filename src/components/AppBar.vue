@@ -4,10 +4,18 @@
     <v-toolbar-title class="headline text-uppercase hidden-xs-only">
       <v-flex class="d-flex align-center">
         <v-img class="hidden-sm-and-down" :src="require('@/assets/logo.svg')" height="64" />
-        <span>Allison&nbsp;</span>
+        <span>Allie&nbsp;</span>
         <span class="font-weight-light">Nolde</span>
       </v-flex>
     </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-toolbar-items>
+      <v-btn to="/" text>Home</v-btn>
+      <v-btn to="about" text>About</v-btn>
+      <v-btn to="contact" text>Contact</v-btn>
+      <v-btn to="portfolio" text>Portfolio</v-btn>
+      <v-btn to="cv" text>CV</v-btn>
+    </v-toolbar-items>
   </v-app-bar>
 </template>
 
