@@ -1,9 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <AppBar />
+    <v-content>
+      <HelloWorld />
+    </v-content>
+  </v-app>
 </template>
+
+<script>
+import HelloWorld from "./components/HelloWorld.vue";
+import AppBar from "@/components/AppBar.vue";
+
+export default {
+  name: "App",
+  components: {
+    HelloWorld,
+    AppBar
+  },
+  data: () => ({
+    //
+  })
+};
+</script>
