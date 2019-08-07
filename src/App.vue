@@ -1,6 +1,11 @@
 <template>
   <v-app>
-    <AppBar />
+    <NavDrawer
+      v-if="$vuetify.breakpoint.smAndDown"
+      v-model="drawer"
+      @input:drawer="drawer = $event"
+    />
+    <AppBar @click:drawer="drawer = !drawer" />
     <v-content>
       <router-view />
     </v-content>
@@ -8,17 +13,19 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import NavDrawer from "@/components/NavDrawer/NavDrawer.vue";
 import AppBar from "@/components/AppBar.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    NavDrawer,
     AppBar
   },
-  data: () => ({
-    //
-  })
+  data() {
+    return {
+      drawer: null
+    };
+  }
 };
 </script>
