@@ -3,8 +3,8 @@
     <HomeListItem />
     <PortfolioListItem />
     <AboutListItem />
-    <ContactListItem />
     <CVListItem />
+    <ContactListItem />
   </v-list>
 </template>
 
@@ -12,8 +12,8 @@
 import HomeListItem from "./HomeListItem";
 import PortfolioListItem from "./PortfolioListItem";
 import AboutListItem from "./AboutListItem";
-import ContactListItem from "./ContactListItem";
 import CVListItem from "./CVListItem";
+import ContactListItem from "./ContactListItem";
 
 export default {
   name: "NavDrawerItems",
@@ -21,8 +21,8 @@ export default {
     HomeListItem,
     PortfolioListItem,
     AboutListItem,
-    ContactListItem,
-    CVListItem
+    CVListItem,
+    ContactListItem
   }
 };
 </script>

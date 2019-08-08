@@ -12,8 +12,8 @@
       <v-btn to="/" text>Home</v-btn>
       <v-btn to="portfolio" text>Portfolio</v-btn>
       <v-btn to="about" text>About</v-btn>
-      <v-btn to="contact" text>Contact</v-btn>
       <v-btn to="cv" text>CV</v-btn>
+      <v-btn @click.stop="$emit('click:contact')" text>Contact</v-btn>
     </v-toolbar-items>
   </v-app-bar>
 </template>
