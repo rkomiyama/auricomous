@@ -9,7 +9,7 @@
     <AppBar @click:drawer="drawer = !drawer" @click:contact="contact = true" />
     <ContactModal v-model="contact" @input:contact="contact = $event" />
     <v-content>
-      <v-container>
+      <v-container fill-height fluid>
         <router-view />
       </v-container>
     </v-content>
@@ -40,7 +40,7 @@ export default {
     });
     this.$root.$on("input:drawer", () => {
       this.drawer = false;
-    })
+    });
   }
 };
 </script>
