@@ -14,6 +14,11 @@ export default new Router({
       component: Home
     },
     {
+      path: "/portfolio",
+      name: "portfolio",
+      component: () => import("./views/Portfolio.vue")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
@@ -26,11 +31,6 @@ export default new Router({
       path: "/contact",
       name: "contact",
       component: () => import("./views/Contact.vue")
-    },
-    {
-      path: "/portfolio",
-      name: "portfolio",
-      component: () => import("./views/Portfolio.vue")
     },
     {
       path: "/cv",

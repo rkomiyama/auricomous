@@ -1,27 +1,27 @@
 <template>
   <v-list dense expand nav>
     <HomeListItem />
+    <PortfolioListItem />
     <AboutListItem />
     <ContactListItem />
-    <PortfolioListItem />
     <CVListItem />
   </v-list>
 </template>
 
 <script>
 import HomeListItem from "./HomeListItem";
+import PortfolioListItem from "./PortfolioListItem";
 import AboutListItem from "./AboutListItem";
 import ContactListItem from "./ContactListItem";
-import PortfolioListItem from "./PortfolioListItem";
 import CVListItem from "./CVListItem";
 
 export default {
   name: "NavDrawerItems",
   components: {
     HomeListItem,
+    PortfolioListItem,
     AboutListItem,
     ContactListItem,
-    PortfolioListItem,
     CVListItem
   }
 };
