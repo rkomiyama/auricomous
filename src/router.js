@@ -19,6 +19,16 @@ export default new Router({
       component: () => import("./views/Portfolio.vue")
     },
     {
+      path: "/styles",
+      name: "styles",
+      component: () => import("./views/Styles.vue")
+    },
+    {
+      path: "/reviews",
+      name: "reviews",
+      component: () => import("./views/Reviews.vue")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
