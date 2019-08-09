@@ -11,6 +11,8 @@
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn to="/" text>Home</v-btn>
       <v-btn to="portfolio" text>Portfolio</v-btn>
+      <v-btn to="styles" text>Styles</v-btn>
+      <v-btn to="reviews" text>Reviews</v-btn>
       <v-btn to="about" text>About</v-btn>
       <v-btn to="cv" text>CV</v-btn>
       <v-btn @click.stop="$emit('click:contact')" text>Contact</v-btn>
