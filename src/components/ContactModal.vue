@@ -11,12 +11,16 @@
         <v-container grid-list-md class="px-0">
           <v-layout column>
             <v-flex>
-              <v-icon class="mr-2">mdi-email</v-icon>
-              <v-label>email@address.com</v-label>
+              <v-icon class="mr-2">mdi-phone</v-icon>
+              <v-label>919-286-0055</v-label>
             </v-flex>
             <v-flex>
-              <v-icon class="mr-2">mdi-phone</v-icon>
-              <v-label>919-999-9999</v-label>
+              <v-icon class="mr-2">mdi-message-text</v-icon>
+              <v-label>919-500-1010</v-label>
+            </v-flex>
+            <v-flex>
+              <v-icon class="mr-2">mdi-email</v-icon>
+              <v-label>allie.nolde@gmail.com</v-label>
             </v-flex>
             <v-flex>
               <v-icon class="mr-2">mdi-facebook</v-icon>
@@ -24,7 +28,7 @@
             </v-flex>
             <v-flex>
               <v-icon class="mr-2">mdi-instagram</v-icon>
-              <a target="_blank" href="https://www.instagram.com/allienolde_hair/">allienolde_hair</a>
+              <a target="_blank" href="https://www.instagram.com/allienolde_hair/">@allienolde_hair</a>
             </v-flex>
           </v-layout>
         </v-container>
