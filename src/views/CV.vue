@@ -1,5 +1,5 @@
 <template>
-  <div class="cv">
+  <v-container fill-height fluid class="cv">
     <h1>This is a CV page</h1>
-  </div>
+  </v-container>
 </template>
