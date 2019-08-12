@@ -1,5 +1,5 @@
 <template>
-  <div class="reviews">
+  <v-container fill-height fluid class="reviews">
     <h1>This is a reviews page</h1>
-  </div>
+  </v-container>
 </template>

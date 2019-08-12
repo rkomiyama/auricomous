@@ -9,9 +9,7 @@
     <AppBar @click:drawer="drawer = !drawer" @click:contact="contact = true" />
     <ContactModal v-model="contact" @input:contact="contact = $event" />
     <v-content>
-      <v-container fill-height fluid>
-        <router-view />
-      </v-container>
+      <router-view />
     </v-content>
   </v-app>
 </template>
