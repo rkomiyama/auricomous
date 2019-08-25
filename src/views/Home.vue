@@ -2,7 +2,9 @@
   <v-container fill-height fluid class="home">
     <v-layout align-center justify-center>
       <v-img
-        src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/67971165_680801962387738_4992895577474727936_n.jpg?_nc_cat=102&_nc_oc=AQnFhD1bAaR466BzeRQuimuFwhFPC3O2yIEqpxOWJQdJ9wp5tNrcrXxAXLKrSHEmWF8&_nc_ht=scontent-mia3-2.xx&oh=3d36e54b9c096fb433e37c8e477370a1&oe=5DDF7CDE"
+        srcset="https://i.imgur.com/GmNc1kI.jpg 540w, https://i.imgur.com/lhFqZ7U.jpg 1080w"
+        sizes="(max-width: 540px) 540px, 969px"
+        src="https://i.imgur.com/lhFqZ7U.jpg"
         :max-width="imgWidth"
       >
         <router-link to="portfolio">
